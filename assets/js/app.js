@@ -57,7 +57,7 @@ const app = {
             {
                 name: 'Chuyện của mùa đông',
                 singer: 'Hà Anh Tuấn',
-                path: 'https://vnso-zn-15-tf-mp3-s1-m-zmp3.zmdcdn.me/53e5d72faa6b43351a7a/7497565330229145563?authen=exp=1653641676~acl=/53e5d72faa6b43351a7a/*~hmac=f971e4c88f30589b09ae880b0d21eb53&fs=MTY1MzQ2ODg3NjkxMXx3ZWJWNHwxNC4xNzIdUngMTAxLjI',
+                path: 'https://vnso-zn-15-tf-mp3-s1-m-zmp3.zmdcdn.me/53e5d72faa6b43351a7a/7497565330229145563?authen=exp=1654337981~acl=/53e5d72faa6b43351a7a/*~hmac=052b480db8bfbb75cc34d4fed3fc66b1&fs=MTY1NDE2NTE4MTQ0N3x3ZWJWNHwxNC4xNzYdUngNDmUsICdUngNDQ',
                 image: './assets/img/chuyen_cua_mua_dong.jpg'
             },
             {
@@ -310,18 +310,16 @@ const app = {
         }
 
         // Song current time
-        audio.ontimeupdate = function () {
-            var curtime = this.currentTime
-            var min = Math.floor(curtime / 60)
-            var sec = Math.floor(curtime % 60)
+        audio.addEventListener('timeupdate', function () {
+            var min = Math.floor(this.currentTime / 60)
+            var sec = Math.floor(this.currentTime % 60)
             curTime.innerText = (min < 10 ? '0' + min : min) + ':' + (sec < 10 ? '0' + sec : sec)
-        }
+        })
   
         // Song duration time
         audio.onloadedmetadata = function () {
-            duration = audio.duration
-            var min = Math.floor(duration / 60)
-            var sec = Math.floor(duration % 60)
+            var min = Math.floor(audio.duration / 60)
+            var sec = Math.floor(audio.duration % 60)
             durTime.innerText = (min < 10 ? '0' + min : min) + ':' + (sec < 10 ? '0' + sec : sec)
         }
 
