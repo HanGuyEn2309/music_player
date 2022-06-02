@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/fonts/css/fontawesome.css">
+    <link rel="stylesheet" href="./assets/fonts/css/fontawesome.min.css">
+    <link rel="stylesheet" href="./assets/fonts/css/solid.css">
+    <link rel="stylesheet" href="./assets/fonts/css/regular.css">
     <link rel="shortcut icon" href="#">
 </head>
 <body>
@@ -46,15 +50,57 @@
             <div class="btn btn-random">
               <i class="fas fa-random"></i>
             </div>
+            <input id="volume" type="range" value="0" step="0.01" min="0.0" max="1.0">
           </div>
-      
+          
           <input id="progress" class="progress" type="range" value="0" step="1" min="0" max="100">
-      
+          <div class="song-time">
+            <span id="curtime">00:00</span>
+            /
+            <span id="durtime">00:00</span>
+          </div>
+
           <audio id="audio" src=""></audio>
         </div>
       
         <!-- Playlist -->
         <div class="playlist">
+          <div class="song">
+            <div class="thumb" style="background-image: url('https://i.ytimg.com/vi/jTLhQf5KJSc/maxresdefault.jpg')">
+            </div>
+            <div class="body">
+              <h3 class="title">Music name</h3>
+              <p class="author">Singer</p>
+            </div>
+            <div class="option">
+              <i class="fas fa-ellipsis-h"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- Music menu of each country -->
+        <div class="menu-playlist">
+          <div class="menu-playlist-btn">
+            <div class="list-song vn-song-btn active">VN</div>
+            <div class="list-song us-song-btn">US</div>
+            <div class="list-song love-song-btn">LOVE</div>
+          </div>
+        </div>
+        <div class="overlay"></div>
+        <div class="option-list">
+          <div class="option-item">
+            <button class="add-love-btn">
+              <i class="fa-solid fa-heart icon-love"></i>
+              <i class="fa-solid fa-ban icon-delete"></i>
+              <span class="add-love-text">Add to favorite playlist</span>
+            </button>
+          </div>
+          <div class="option-item">
+            <button class="download-song-btn">
+              <i class="fa fa-download"></i> 
+              <span>Download</span>
+          </button>
+          </div>
         </div>
     </div>
       

@@ -84,6 +84,7 @@ header h2 {
   align-items: center;
   justify-content: space-around;
   padding: 18px 0 8px 0;
+  position: relative;
 }
 
 .control .btn {
@@ -113,6 +114,15 @@ header h2 {
   color: var(--primary-color);
 }
 
+#volume {
+  width: 40%;
+  position: absolute;
+  top: -100px;
+  right: -50px;
+  transform: rotate(270deg);
+  background: #d3d3d3;
+}
+
 .progress {
   width: 100%;
   -webkit-appearance: none;
@@ -133,10 +143,25 @@ header h2 {
   cursor: pointer;
 }
 
+.song-time {
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+}
+
+#curtime {
+  margin-right: 4px;
+}
+
+#durtime {
+  margin-left: 4px;
+}
+
 /* PLAYLIST */
 .playlist {
   margin-top: 408px;
   padding: 12px;
+  box-shadow: 0px 0px 40px -10px rgb(0 0 0 / 10%);
 }
 
 .song {
@@ -190,4 +215,104 @@ header h2 {
   padding: 16px 8px;
   color: #999;
   font-size: 18px;
+}
+
+/* MENU */
+.menu-playlist {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  max-width: 480px;
+}
+
+.menu-playlist-btn {
+  display: flex;
+  justify-content: space-around;
+}
+
+.list-song {
+  width: 100%;
+  background-color: #fff;
+  border: none;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.list-song.active {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+/* OPTION */
+.overlay {
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  max-width: 480px;
+  position:fixed;
+  opacity: 0.3 ;
+  z-index: 2;
+  background-color: #999;
+  display: none;
+}
+
+.option-list {
+  display: none;
+  position: fixed;
+  border: none;
+  bottom: 0;
+  width: 100%;
+  max-width: 480px;
+  background-color: #fff;
+  z-index: 3;
+  animation: optionFade ease-in 0.2s;
+}
+
+.overlay.active,
+.option-list.active {
+  display: block;
+}
+
+.option-item {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #d3d3d3;
+  height: 40px;
+  font-size: 16px;
+}
+
+.add-love-btn,
+.download-song-btn {
+  width: 100%;
+  height: 100%;
+  border: none;
+  cursor: pointer;
+}
+
+.add-love-btn:active,
+.download-song-btn:active {
+  background-color: var(--primary-color);
+}
+
+.add-love-btn .icon-love {
+  display: inline-block;
+}
+
+.add-love-btn .icon-delete {
+  display: none;
+}
+
+@keyframes optionFade {
+  from {
+    transform: translateY(100%)
+  }
+  to {
+    transform: translateY(0%)      
+  }
 }
