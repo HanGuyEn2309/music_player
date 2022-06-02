@@ -121,6 +121,7 @@ header h2 {
   right: -50px;
   transform: rotate(270deg);
   background: #d3d3d3;
+  display: none;
 }
 
 .progress {

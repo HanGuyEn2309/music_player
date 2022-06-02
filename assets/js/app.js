@@ -400,6 +400,9 @@ const app = {
         // Handle when click menu playlist
         // Xử lý khi đổi menu danh sách bài hát 
         vnBtn.onclick = function() {
+            addText.innerText = 'Add to favorite playlist';
+            iconLove.style.display = 'inline-block';
+            iconDelete.style.display = 'none';
             vnBtn.classList.add('active');
             usBtn.classList.remove('active');
             loveBtn.classList.remove('active');
@@ -411,6 +414,9 @@ const app = {
             playBtn.click();
         }
         usBtn.onclick = function() {
+            addText.innerText = 'Add to favorite playlist';
+            iconLove.style.display = 'inline-block';
+            iconDelete.style.display = 'none';
             usBtn.classList.add('active');
             vnBtn.classList.remove('active');
             loveBtn.classList.remove('active');
