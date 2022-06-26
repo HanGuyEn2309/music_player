@@ -57,49 +57,49 @@ const app = {
             {
                 name: 'Chuyện của mùa đông',
                 singer: 'Hà Anh Tuấn',
-                path: 'https://vnso-zn-15-tf-mp3-s1-m-zmp3.zmdcdn.me/53e5d72faa6b43351a7a/7497565330229145563?authen=exp=1654337981~acl=/53e5d72faa6b43351a7a/*~hmac=052b480db8bfbb75cc34d4fed3fc66b1&fs=MTY1NDE2NTE4MTQ0N3x3ZWJWNHwxNC4xNzYdUngNDmUsICdUngNDQ',
+                path: './assets/music/Chuyen-Cua-Mua-Dong-Ha-Anh-Tuan.mp3',
                 image: './assets/img/chuyen_cua_mua_dong.jpg'
             },
             {
                 name: 'Cơn mưa tình yêu',
                 singer: 'Hà Anh Tuấn',
-                path: 'https://vnso-zn-23-tf-mp3-s1-m-zmp3.zmdcdn.me/5cfdea8d97c97e9727d8/3568583923011190879?authen=exp=1654316272~acl=/5cfdea8d97c97e9727d8/*~hmac=97f4de61367eec743622413b83bb45e6&fs=MTY1NDE0MzQ3MjkxNnx3ZWJWNHwxNC4xODkdUngMTYyLjmUsIC0',
+                path: './assets/music/Con-Mua-Tinh-Yeu-Ha-Anh-Tuan-Phuong-Linh.mp3',
                 image: './assets/img/con_mua_tinh_yeu.jpg'
             },
             {
                 name: 'Tháng tư là lời nói dối của em',
                 singer: 'Hà Anh Tuấn',
-                path: 'https://vnso-zn-16-tf-mp3-s1-m-zmp3.zmdcdn.me/9dde8dee57aabef4e7bb/7587729695603023061?authen=exp=1653630064~acl=/9dde8dee57aabef4e7bb/*~hmac=40ba229552444e28961ce575b77bbfff&fs=MTY1MzQ1NzI2NDMzNnx3ZWJWNHw0Mi4xMTIdUngOTQdUngMTg1',
+                path: './assets/music/Thang-Tu-La-Loi-Noi-Doi-Cua-Em-Ha-Anh-Tuan.mp3',
                 image: './assets/img/thang_tu_la_loi_noi_doi_cua_em.jpg'
             },
             {
                 name: 'Tái bút anh yêu em',
                 singer: 'Hà Anh Tuấn',
-                path: 'https://vnso-zn-15-tf-mp3-s1-m-zmp3.zmdcdn.me/e7fdf5cd2f89c6d79f98/451942829190736760?authen=exp=1653641897~acl=/e7fdf5cd2f89c6d79f98/*~hmac=b9b821169d5c0787b1c4f701110108c5&fs=MTY1MzQ2OTA5NzmUsIC3Mnx3ZWJWNHwxNC4xNjEdUngMTQ5Ljky',
+                path: './assets/music/Tai-But-Anh-Yeu-Em-Ha-Anh-Tuan.mp3',
                 image: './assets/img/tai_but_a_yeu_e.jpg'
             },
             {
                 name: 'Người con gái ta thương',
                 singer: 'Hà Anh Tuấn',
-                path: 'https://vnso-zn-15-tf-mp3-s1-m-zmp3.zmdcdn.me/e0b1f6812cc5c59b9cd4/7534223447334609740?authen=exp=1653642375~acl=/e0b1f6812cc5c59b9cd4/*~hmac=ae0b8168780e0e14958f548833bd28cd&fs=MTY1MzQ2OTU3NTEwOHx3ZWJWNHwxNC4xNzMdUngMTYyLjE1MA',
+                path: './assets/music/Nguoi-Con-Gai-Ta-Thuong-Ha-Anh-Tuan.mp3',
                 image: './assets/img/nguoi_con_gai_ta_thuong.jpg'
             },
             {
                 name: 'Lặng yên dưới vực sâu',
                 singer: 'Bùi Anh Tuấn, Ái Phương',
-                path: 'https://vnso-zn-23-tf-mp3-s1-m-zmp3.zmdcdn.me/becc1deefcaa15f44cbb/7246791638674143393?authen=exp=1654316178~acl=/becc1deefcaa15f44cbb/*~hmac=975c7d130fad24420a65cbdb6c0023c7&fs=MTY1NDE0MzM3ODU4NXx3ZWJWNHwxNC4yNDEdUngMjUzLjmUsICy',
+                path: './assets/music/Lang-Yen-Duoi-Vuc-Sau-OST-Bui-Anh-Tuan-Ai-Phuong.mp3',
                 image: './assets/img/lang_yen_duoi_vuc_sau.jpg'
             },
             {
                 name: 'Hẹn một mai',
                 singer: 'Bùi Anh Tuấn',
-                path: 'https://vnso-zn-10-tf-mp3-s1-m-zmp3.zmdcdn.me/77bc7407e043091d5052/5307620850835463226?authen=exp=1653642504~acl=/77bc7407e043091d5052/*~hmac=46d178ff3961af52bd2eb5e8b444cb05&fs=MTY1MzQ2OTmUsICwNDAwOXx3ZWJWNHwxNC4xODMdUngMTMxLjE2NA',
+                path: './assets/music/Hen-Mot-Mai-4-Nam-2-Chang-1-Tinh-Yeu-OST-Bui-Anh-Tuan.mp3',
                 image: './assets/img/hen_mot_mai.jpg'
             },
             {
                 name: 'Mãi mãi là của nhau',
                 singer: 'Bùi Anh Tuấn',
-                path: 'https://vnso-zn-23-tf-mp3-s1-m-zmp3.zmdcdn.me/65245e9fcadb23857aca/5208969760169024776?authen=exp=1654316455~acl=/65245e9fcadb23857aca/*~hmac=cbc191d2dfa6e562f2173afaf53ed314&fs=MTY1NDE0MzY1NTQzMnx3ZWJWNHwxNC4xNzgdUngNy4yNTE',
+                path: './assets/music/Mai-Mai-La-Cua-Nhau-4-Nam-2-Chang-1-Tinh-Yeu-OST-Bui-Anh-Tuan.mp3',
                 image: './assets/img/mai_mai_la_cua_nhau.jpg'
             }
         ],
@@ -107,49 +107,49 @@ const app = {
             {
                 name: 'My Love',
                 singer: 'Westlife',
-                path: 'https://vnso-zn-10-tf-mp3-s1-m-zmp3.zmdcdn.me/b3e246bf4cfba5a5fcea/6827923834542022312?authen=exp=1654336470~acl=/b3e246bf4cfba5a5fcea/*~hmac=e6f49820fff1c7b0951563cce94e31b1&fs=MTY1NDE2MzY3MDExN3x3ZWJWNHwxNC4xNjEdUngMS4xMDY',
+                path: './assets/music/My-Love-Westlife.mp3',
                 image: './assets/img/mylove.jpg',
             },
             {
                 name: 'I Lay My Love On You',
                 singer: 'Westlife',
-                path: 'https://vnso-zn-10-tf-mp3-s1-m-zmp3.zmdcdn.me/6bb166e8c1ac28f271bd/7762447696981566721?authen=exp=1654336570~acl=/6bb166e8c1ac28f271bd/*~hmac=97277dd4dc17af5e1adc341fb21c88ca&fs=MTY1NDE2MzmUsIC3MDg5Mnx3ZWJWNHwxNC4xNjYdUngNTAdUngMTQ0',
+                path: './assets/music/I Lay My Love On You - Westlife.mp3',
                 image: './assets/img/i_lay_my_love_on_you.jpg'
             },
             {
                 name: 'Nothing\'s Gonna Change My Love For You',
                 singer: 'Westlife',
-                path: 'https://vnso-zn-5-tf-mp3-s1-m-zmp3.zmdcdn.me/056429f02ab4c3ea9aa5/3845639893463822202?authen=exp=1654326985~acl=/056429f02ab4c3ea9aa5/*~hmac=d7a4cbad9e263d0b057cf7226b0c2da2&fs=MTY1NDE1NDE4NTgxMHx3ZWJWNHwxMDMdUngMTA5LjQzLjU2',
+                path: './assets/music/Nothing_s Gonna Change My Love For You.mp3',
                 image: './assets/img/nothing_gonna_change_my_love_for_you.jpg'
             },
             {
                 name: 'You Rise Me Up',
                 singer: 'Westlife',
-                path: 'https://vnso-zn-16-tf-mp3-s1-m-zmp3.zmdcdn.me/b375f4f6fdb214ec4da3/4620694752289169701?authen=exp=1654336774~acl=/b375f4f6fdb214ec4da3/*~hmac=a25aabf091651a32a20e52e03b849a0e&fs=MTY1NDE2Mzk3NDmUsIC4Nnx3ZWJWNHwxNC4xNzUdUngMzIdUngNjA',
+                path: './assets/music/You Raise Me Up - Westlife.mp3',
                 image: './assets/img/you_raise_me_up.jpg'
             },
             {
                 name: 'Seasons in the Sun',
                 singer: 'Westlife',
-                path: 'https://vnso-zn-23-tf-mp3-s1-m-zmp3.zmdcdn.me/2645ab980ddfe481bdce/5783920457037640454?authen=exp=1654336828~acl=/2645ab980ddfe481bdce/*~hmac=3e9bc80a6ed6d4154107d896fe69e401&fs=MTY1NDE2NDAyODI3M3x3ZWJWNHwxNC4xODMdUngMTA4LjIwNA',
+                path: './assets/music/Seasons In The Sun - Westlife.mp3',
                 image: './assets/img/season_in_the_sun.jpg'
             },
             {
                 name: 'What Makes You Beautiful',
                 singer: 'One Direction',
-                path: 'https://vnso-zn-15-tf-mp3-s1-m-zmp3.zmdcdn.me/f5487c557111984fc100/39153996702653568?authen=exp=1654336885~acl=/f5487c557111984fc100/*~hmac=06077dfb4309886209aa41cacf4fbe07&fs=MTY1NDE2NDA4NTE4NXx3ZWJWNHwxNC4xOTAdUngNzkdUngMw',
+                path: './assets/music/What Makes You Beautiful - One Direction.mp3',
                 image: './assets/img/what_makes_you_beautiful.jpg'
             },
             {
                 name: 'Night Changes',
                 singer: 'One Direction',
-                path: 'https://vnso-zn-16-tf-mp3-s1-m-zmp3.zmdcdn.me/64dabc2eb46a5d34047b/4025055181571824410?authen=exp=1654336958~acl=/64dabc2eb46a5d34047b/*~hmac=387a5d261c45fdd27a767da130175c39&fs=MTY1NDE2NDE1ODmUsIC5Nnx3ZWJWNHwxNC4xNjkdUngMTQ2LjmUsIC0',
+                path: './assets/music/Night Changes - One Direction.mp3',
                 image: './assets/img/night_changes.jpg'
             },
             {
                 name: 'One Thing',
                 singer: 'One Direction',
-                path: 'https://vnso-zn-5-tf-mp3-s1-m-zmp3.zmdcdn.me/63aef057fe13174d4e02/231849482920141824?authen=exp=1654337026~acl=/63aef057fe13174d4e02/*~hmac=a0c048800cfe70031c826c2722c61644&fs=MTY1NDE2NDIyNjI2M3x3ZWJWNHwxNC4xNjgdUngMTAzLjU1',
+                path: './assets/music/One Thing - One Direction.mp3',
                 image: './assets/img/one_thing.jpg'
             }
         ],
